@@ -1,6 +1,6 @@
 # Python_Homework
 
-Pybank and PyPoll folders include text files, python scripts (main.py), and seperate resource folders that contains the original csv.
+Pybank and PyPoll folders contain text files, python scripts (main.py), and seperate resource folders with the original csv.
 
 Sources used:
 https://www.youtube.com/watch?v=qdLb0hpuWcI.
