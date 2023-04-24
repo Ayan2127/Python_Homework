@@ -1,11 +1,13 @@
 import csv
 
 
-budget_csvpath = "/Users/ayankhalif/Downloads/Starter_Code-6/PyPoll/Resources/election_data.csv"
+budget_csvpath = "PyPoll/Resources/election_data.csv"
 
 with open(budget_csvpath, encoding= 'utf') as csvfile:
   csvreader = csv.reader(csvfile, delimiter= ",")
-  next(csvreader, None)
+  
+  #skips header
+  header = next(csvreader)
  
   #list variables 
   total_votes = []
