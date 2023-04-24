@@ -1,13 +1,13 @@
 import csv
 
 
-budget_csvpath = "/Users/ayankhalif/Downloads/Starter_Code-6/PyBank/Resources/budget_data.csv"
+budget_csvpath = "PyBank/Resources/budget_data.csv"
 
 with open(budget_csvpath, encoding= 'utf') as csvfile:
   csvreader = csv.reader(csvfile, delimiter= ",")
   
   #skips header
-  next(csvreader, None)
+  header = next(csvreader, None)
   
   #list variables
   total_months = []
